@@ -1,0 +1,14 @@
+1) Unit testing:
+A Unit is a smallest testable portion of system or application which can be compiled, liked, loaded, and executed. This kind of testing helps to test each module separately.
+The aim is to test each part of the software by separating it. It checks that component are fulfilling functionalities or not. This kind of testing is performed by developers.
+
+2) Integration testing:
+Integration means combining. For Example, In this testing phase, different software modules are combined and tested as a group to make sure that integrated system is ready for system testing.
+Integrating testing checks the data flow from one module to other modules. This kind of testing is performed by testers.
+
+3) System testing:
+System testing is performed on a complete, integrated system. It allows checking system's compliance as per the requirements. It tests the overall interaction of components. It involves load, performance, reliability and security testing.
+System testing most often the final test to verify that the system meets the specification. It evaluates both functional and non-functional need for the testing.
+
+4) Acceptance testing:
+Acceptance testing is a test conducted to find if the requirements of a specification or contract are met as per its delivery. Acceptance testing is basically done by the user or customer. However, other stockholders can be involved in this process.

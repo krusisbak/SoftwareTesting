@@ -1,0 +1,42 @@
+1. Feature: Test the drop down display per page
+   Background: Given display button option for drop down menu
+	       And should be able to change number for display view.				
+   Scenario: Click on display button for drop down option
+             When user click the display drop down button    
+             And display should show drop down option 
+             Then User should be able to change number of view to see the page.
+ 
+
+2. Feature: Test the search box
+   Background:Given the search box to find the product
+	      And it should navigate to the product page 	 
+   Scenario:By typing into the search box it should navigate to product page which user looking for.
+            When typing into the search box
+            And click on the search icon
+            Then it should navigate to specific product page.   
+
+3. Feature: Test the link Add to Cart
+   Background: Given The Add to cart button link
+	       And the link should add item into shopping basket.
+   Scenario: By clicking on Add to Cart link it should add iteam in the shopping basket for payment.
+             When click on Add to Cart link
+	     And it should add iteam in shopping basket.	
+             Then user should either add another iteam 
+             But User can also proceed for payment.
+
+4. Feature: Test the Link Book Categories
+   Backgrond: Given to click the Link Book 
+              And it should navigate to Book Categories
+   Scenario: By Clicking the link Book it should navigate to other page 
+             When click the link on Book
+             Then it should navigate to page of Book Categories
+             
+
+
+5. Feature: Test the product link (Lenovo)
+   Background:Given to click the product link
+              And it should open new page with all specification details of product.
+   Scenario: By clicking the product link should open new page with all specification details of product.
+             When click on the product link
+	     And it should take to next page of product description.
+             Then user can see all product specification. 

@@ -1,0 +1,24 @@
+public class UberApps {
+    public void deliveryWrap() {
+        System.out.println("Delivery delicious Paneer Roll");
+    }
+    public void deliverySandwich() {
+        System.out.println("Delivery delicious Cheese Salad");
+    }
+    public void deliveryBurger() {
+        System.out.println("Delivery delicious Samosa Pav");
+    }
+
+public class JustEatApps {
+    public void deliveryWrap() {
+        System.out.println("Delivery delicious Spring Roll");
+    }
+    public void deliverySandwich() {
+        System.out.println("Delivery delicious Cheese and Onion");
+    }
+    public void deliveryBurger() {
+        System.out.println("Delivery delicious Usal Pav");
+    }
+    public void deliveryIceCream() {
+        System.out.println("Delivery delicious Kulfi");
+    }
