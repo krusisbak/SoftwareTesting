@@ -2,6 +2,6 @@ package com.mydetails.hompage;
 
 public class KrutikDetails {
     public static void main(String[] args) {
-       // System.out.println("Krutik Prajapati");
+        System.out.println("Krutik Prajapati");
     }
 }
