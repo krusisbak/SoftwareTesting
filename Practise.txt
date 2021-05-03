@@ -1,0 +1,227 @@
+D:\>dir
+ Volume in drive D is 64GB KP
+ Volume Serial Number is BF03-266A
+
+ Directory of D:\
+
+01/04/2019  11:26    <DIR>          YDS Slip
+29/05/2019  12:18    <DIR>          Prem Rawat
+29/05/2019  12:18    <DIR>          Cars
+29/05/2019  12:19    <DIR>          C.V 2
+29/05/2019  12:19    <DIR>          India Holiday 2019 booking
+18/08/2019  21:04    <DIR>          Meera
+21/08/2019  12:51    <DIR>          Krish
+10/09/2019  12:22    <DIR>          Curise Holiday
+28/11/2019  10:22    <DIR>          Job Application I.T
+04/11/2019  17:55    <DIR>          Neovia
+02/02/2020  21:51    <DIR>          Aarti
+29/05/2019  12:17    <DIR>          I.T Learning
+25/02/2020  22:27    <DIR>          Krutik
+01/03/2020  17:20    <DIR>          Extension work
+02/03/2020  21:38    <DIR>          Food Attraction
+17/05/2020  15:20    <DIR>          School Home Work
+13/06/2020  11:19    <DIR>          Nanah
+13/06/2020  11:40    <DIR>          British Gas Bill
+06/09/2020  16:33    <DIR>          Mummy
+04/10/2020  15:35    <DIR>          Delivery Job
+04/12/2020  10:14    <DIR>          Mortgage
+29/12/2020  21:01    <DIR>          Voucher online
+29/12/2020  21:38    <DIR>          Online Recepit
+30/12/2020  20:24    <DIR>          Home Insurance
+10/01/2021  20:54    <DIR>          Warranty Registration
+31/01/2021  13:24           484,382 Zoom Background.png
+14/02/2021  11:16    <DIR>          SoftwareTesting
+30/03/2021  22:23    <DIR>          Cricket SPA
+01/05/2021  14:59    <DIR>          MyJavaFiles
+02/05/2021  18:28    <DIR>          HomeWorkFiles
+02/05/2021  20:29    <DIR>          PractiseJavaFiles
+               1 File(s)        484,382 bytes
+              30 Dir(s)  12,553,322,496 bytes free
+
+D:\>cd PractiseJavaFiles
+
+D:\PractiseJavaFiles>dir
+ Volume in drive D is 64GB KP
+ Volume Serial Number is BF03-266A
+
+ Directory of D:\PractiseJavaFiles
+
+02/05/2021  20:29    <DIR>          .
+02/05/2021  20:29    <DIR>          ..
+29/03/2021  18:09             1,133 ManualTestingTopics.java
+01/05/2021  18:45               169 KrutikDetails.java
+               2 File(s)          1,302 bytes
+               2 Dir(s)  12,553,322,496 bytes free
+
+D:\PractiseJavaFiles>git init
+Reinitialized existing Git repository in D:/PractiseJavaFiles/.git/
+
+D:\PractiseJavaFiles>git status
+On branch main
+Your branch is up to date with 'hompage/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    hompage
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        KrutikDetails.java
+        ManualTestingTopics.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\PractiseJavaFiles>git add  KrutikDetails.java
+
+D:\PractiseJavaFiles>git status
+On branch main
+Your branch is up to date with 'hompage/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   KrutikDetails.java
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    hompage
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ManualTestingTopics.java
+
+
+D:\PractiseJavaFiles>git add .
+
+D:\PractiseJavaFiles>git status
+On branch main
+Your branch is up to date with 'hompage/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   KrutikDetails.java
+        new file:   ManualTestingTopics.java
+        deleted:    hompage
+
+
+D:\PractiseJavaFiles>git commit -m "my first commit"
+[main 3698f70] my first commit
+ 3 files changed, 26 insertions(+), 1 deletion(-)
+ create mode 100644 KrutikDetails.java
+ create mode 100644 ManualTestingTopics.java
+ delete mode 160000 hompage
+
+D:\PractiseJavaFiles>git remote -v
+hompage https://github.com/krusisbak/PraticeJavaFiles.git (fetch)
+hompage https://github.com/krusisbak/PraticeJavaFiles.git (push)
+origin  https://github.com/krusisbak/PractiseJavaFiles.git (fetch)
+origin  https://github.com/krusisbak/PractiseJavaFiles.git (push)
+
+D:\PractiseJavaFiles>git remote rm origin
+
+D:\PractiseJavaFiles>git remote -v
+hompage https://github.com/krusisbak/PraticeJavaFiles.git (fetch)
+hompage https://github.com/krusisbak/PraticeJavaFiles.git (push)
+
+D:\PractiseJavaFiles>git remote rm homepage
+error: No such remote: 'homepage'
+
+D:\PractiseJavaFiles>git remote rm origin
+error: No such remote: 'origin'
+
+D:\PractiseJavaFiles>git remote rm  https://github.com/krusisbak/PraticeJavaFiles.git
+error: No such remote: 'https://github.com/krusisbak/PraticeJavaFiles.git'
+
+D:\PractiseJavaFiles>git remote -v
+hompage https://github.com/krusisbak/PraticeJavaFiles.git (fetch)
+hompage https://github.com/krusisbak/PraticeJavaFiles.git (push)
+
+D:\PractiseJavaFiles>git remote add origin  https://github.com/krusisbak/PraticeJavaFiles.git
+
+D:\PractiseJavaFiles>git remote -v
+hompage https://github.com/krusisbak/PraticeJavaFiles.git (fetch)
+hompage https://github.com/krusisbak/PraticeJavaFiles.git (push)
+origin  https://github.com/krusisbak/PraticeJavaFiles.git (fetch)
+origin  https://github.com/krusisbak/PraticeJavaFiles.git (push)
+
+D:\PractiseJavaFiles>git branch
+* main
+
+D:\PractiseJavaFiles>git push -f origin main
+remote: Repository not found.
+fatal: repository 'https://github.com/krusisbak/PraticeJavaFiles.git/' not found
+
+D:\PractiseJavaFiles>git remote rm origin
+
+D:\PractiseJavaFiles>git remote add origin https://github.com/krusisbak/PractiseJavaFiles.git
+
+D:\PractiseJavaFiles>git push -f origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.05 KiB | 134.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/krusisbak/PractiseJavaFiles.git
+ + 808f4d2...3698f70 main -> main (forced update)
+
+D:\PractiseJavaFiles>git remote -v
+hompage https://github.com/krusisbak/PraticeJavaFiles.git (fetch)
+hompage https://github.com/krusisbak/PraticeJavaFiles.git (push)
+origin  https://github.com/krusisbak/PractiseJavaFiles.git (fetch)
+origin  https://github.com/krusisbak/PractiseJavaFiles.git (push)
+
+D:\PractiseJavaFiles>cd ..
+
+D:\>cd SoftwareTesting
+
+D:\SoftwareTesting>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/main/java/com/mydetails/hompage/KrutikDetails.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\SoftwareTesting>git remote -v
+origin  https://github.com/krusisbak/SoftwareTesting.git (fetch)
+origin  https://github.com/krusisbak/SoftwareTesting.git (push)
+
+D:\SoftwareTesting>git add .
+
+D:\SoftwareTesting>git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/main/java/com/mydetails/hompage/KrutikDetails.java
+
+
+D:\SoftwareTesting>git commit -m "changes in KrutikDetails file"
+[main fd524b6] changes in KrutikDetails file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+D:\SoftwareTesting>git status
+On branch main
+nothing to commit, working tree clean
+
+D:\SoftwareTesting>git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+
+D:\SoftwareTesting>git push -f origin main
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 781 bytes | 86.00 KiB/s, done.
+Total 9 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/krusisbak/SoftwareTesting.git
+   a72c9dd..fd524b6  main -> main
+
+D:\SoftwareTesting>git add hompage
